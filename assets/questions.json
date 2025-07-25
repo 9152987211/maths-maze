@@ -1,0 +1,24 @@
+{
+	"POLYNOMIAL_DIFFERENTIATION": [
+		{
+			"text"   	   : "What is the gradient function of f(x)?",
+			"answer" 	   : "2 * x",
+			"wrongAnswers" : [
+				"(1/3) * (x^3)",
+				"2 * (x ^ 2)",
+				"2"
+			],
+			"solution":"The derivative of anything in the form x^n where n is a constant is equal to n * x^(n-1) so the derivative of x^2 is equal to 2 * x."
+		},
+		{
+			"text"   	   : "What is the derivative of f(x)?",
+			"answer" 	   : "48 * (x^11)",
+			"wrongAnswers" : [
+				"(4/12) * (x^13)",
+				"32 * (x ^ 11)",
+				"48^11"
+			],
+			"solution":"The derivative of anything in the form x^n where n is a constant is equal to n * x^(n-1) so the derivative of 4*x^12 is equal to 48*x^11."
+		}
+	]
+}
